@@ -1,8 +1,8 @@
 # Site settings
 title: GT Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+SEOTitle: GT的博客 | GT Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: haorengoodman@163.com
 description: "GT de Blog world"
 keyword: "GT,Blog,Jekyll"
 url: "http://"              # your host, for absolute URL
