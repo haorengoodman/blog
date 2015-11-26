@@ -25,14 +25,14 @@ tags:
 大多数Blog作者，都停留在第一和第二阶段，因为第三阶段不太容易到达：你很难找到俯首听命、愿意为你管理服务器的人。
 
 
-![img](/img/in-post/gtimg/bg2015112601.jpg)
+![img](/blog/img/in-post/gtimg/bg2015112601.jpg)
 
 
 但是两年前，情况出现变化，一些程序员开始在ｇithub网站上搭建blog。他们既拥有绝对管理权，又享受github带来的便利----不管何时何地，只要向主机提交commit，就能发布新文章。更妙的是，这一切还是免费的，github提供无限流量，世界各地都有理想的访问速度。
 今天，我就来示范如何在github上搭建Blog，你可以从中掌握github的Pages功能，以及Jekyll软件的基本用法。更重要的是，你会体会到一种建立网站的全新思路。
 
 
-![img](/img/in-post/gtimg/bg2015112602.jpg)
+![img](/blog/img/in-post/gtimg/bg2015112602.jpg)
 
 
 
