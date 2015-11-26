@@ -144,11 +144,15 @@ $ mkdir _layouts
         <head>
             <meta http-equiv="content-type" content="text/html; charset=utf-8" />
             <title>
+```
                 {{ page.title }}
+```
             </title>
         </head>
         <body>
+```
         　　　　{{ content }}
+```
         </body>
     </html>
     <div>
