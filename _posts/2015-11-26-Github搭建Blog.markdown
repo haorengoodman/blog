@@ -137,26 +137,18 @@ $ mkdir _layouts
 
 进入该目录，创建一个default.html文件，作为Blog的默认模板。并在该文件中填入以下内容。
 
-```html　
+```　
 <!DOCTYPE html>
 <html>
-    　　
-    
     <head>
-        　　　 　
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        　　　 　
         <title>
             {{ page.title }}
         </title>
-        　　
     </head>
-    　　
-    
     <body>
         　　　　{{ content }}
     </body>
-
 </html>
 ```
 
