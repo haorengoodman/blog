@@ -137,8 +137,7 @@ $ mkdir _layouts
 
 进入该目录，创建一个default.html文件，作为Blog的默认模板。并在该文件中填入以下内容。
 
-```
-　  <div>
+```html
     <!DOCTYPE html>
     <html>
         <head>
@@ -151,7 +150,6 @@ $ mkdir _layouts
         　　　　{{ content }}
         </body>
     </html>
-    <div>
 ```
 
 Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content }}表示文章内容，更多模板变量请参考官方文档。
