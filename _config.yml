@@ -1,9 +1,9 @@
 # Site settings
-title: xxx Blog
-SEOTitle: 博客 | xxx Blog
+title: GT Blog
+SEOTitle:GT 博客 | GT de Blog
 header-img: img/home-bg.jpg
 email: haorengoodman@163.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+description: "description1, desc2"
 keyword: "tag, tag1"
 url: "http://www.icegit.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -12,11 +12,11 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     haorengoodman
+zhihu_username:     haorengoodman
+github_username:    haorengoodman
+#twitter_username:  haorengoodman
+facebook_username:  haorengoodman
 
 
 
