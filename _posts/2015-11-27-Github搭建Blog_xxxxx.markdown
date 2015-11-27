@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门"
+title:      "xxx搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门"
 subtitle:   "转自阮一峰的网络日志"
 date:       2015-11-26
 author:     "GT"
