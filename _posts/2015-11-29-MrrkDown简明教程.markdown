@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "MarkDown简明教程"
+subtitle:   "子标题"
+date:       2015-11-29
+author:     "GT"
+header-img: "img/post-bg-alitrip.jpg"
+tags:
+    - MarkDown
+---
+> 本篇文章目的在于普及MarkDown常用语法.
+
+### 斜体格式
+
+···
+*斜体*
+_斜体_
+···
+
+
+
+
+
