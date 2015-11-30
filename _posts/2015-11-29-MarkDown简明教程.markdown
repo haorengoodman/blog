@@ -7,6 +7,7 @@ author:     "GT"
 header-img: "img/post-bg-alitrip.jpg"
 tags:
     - MarkDown
+    - kramdown
 ---
 > 本篇文章目的在于普及MarkDown常用语法.
 
