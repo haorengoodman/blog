@@ -36,7 +36,7 @@ anchorjs: true                          # if you want to customize anchor. check
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-  use_coderay: true
+  #use_coderay: true
 
 
 # Disqus settings
