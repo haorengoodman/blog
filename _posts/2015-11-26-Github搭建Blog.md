@@ -143,11 +143,11 @@ $ mkdir _layouts
         <head>
             <meta http-equiv="content-type" content="text/html; charset=utf-8" />
             <title>
-                {{ page.title }}
+                \{\{ page.title \}\}
             </title>
         </head>
         <body>
-        　　　　{{ content }}
+        　　　　\{\{ content \}\}
         </body>
     </html>
 ```
@@ -181,9 +181,9 @@ Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content
 　　layout: default
 　　title: 你好，世界
 　　---
-　　<h2>{{ page.title }}</h2>
+　　<h2>\{\{ page.title \}\}</h2>
 　　<p>我的第一篇文章</p>
-　　<p>{{ page.date | date_to_string }}</p>
+　　<p>\{\{ page.date | date_to_string \}\}</p>
 ```
 
 每篇文章的头部，必须有一个yaml文件头，用来设置一些元数据。它用三根短划线"---"，标记开始和结束，里面每一行设置一种元数据。"layout:default"，表示该文章的模板使用_layouts目录下的default.html文件；"title: 你好，世界"，表示该文章的标题是"你好，世界"，如果不设置这个值，默认使用嵌入文件名的标题，即"hello world"。
@@ -212,11 +212,11 @@ Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content
 　　layout: default
 　　title: 我的Blog
 　　---
-　　<h2>{{ page.title }}</h2>
+　　<h2>\{\{ page.title \}\}</h2>
 　　<p>最新文章</p>
 　　<ul>
 　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　　　<li>\{\{ post.date | date_to_string \}\} <a href="\{\{ site.baseurl \}\}\{\{ post.url \}\}">\{\{ post.title \}\}</a></li>
 　　　　{% endfor %}
 　　</ul>
 ```
