@@ -9,7 +9,7 @@ tags:
     - UML
 ---
 
-> 本篇文章目的在于普及MarkDown表格和公式.
+> 本篇文章目的在于普及MarkDown的UML.
 
 
 **序列图**  
