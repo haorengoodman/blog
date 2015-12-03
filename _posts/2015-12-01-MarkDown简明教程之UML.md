@@ -14,6 +14,7 @@ tags:
 
 **序列图**  
 
+
 ```sequence
 DHCP客户机 --> DHCP服务器: IP租约请求  
 DHCP服务器 --> DHCP客户机: IP租约请求  
