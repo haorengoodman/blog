@@ -21,7 +21,8 @@ facebook_username:  haorengoodman
 
 
 # Build settings
-highlighter: pygments
+#highlighter: pygments 注：被下面的rouge取代
+rouge: pygments
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
